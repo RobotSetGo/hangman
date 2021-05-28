@@ -12,3 +12,22 @@ h1 {
     margin-left: 120px;
     font-family: 'Reggae One', cursive;
 }
+
+h1:hover{
+  color: #82B3AA;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-left: 130px;
+  font-family: 'Reggae One', cursive;
+}
+
+a:hover{
+  color: #82B3AA;
+  text-decoration: none;
+  font-size: 45px;
+}
