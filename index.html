@@ -11,15 +11,59 @@
     />
     <link href="css/style.css" rel="stylesheet" />
   </head>
-  <body>
+  <body id="body">
     <div class="container">
-      <h1>Hangman</h1>
-      <a href="#" class="">New Game</a>
-      <div></div>
-      <a href="#" class="">Options</a>
-      <div></div>
-      <a href="#" class="">Leaderboard</a>
+      <h1 id="title">Hangman</h1>
+
+      <div class="buttonContainer">
+        <a href="#" class="" id="newGameBtn" onclick="newGame()">New Game</a>
+      </div>
+      <div class="buttonContainer">
+        <a href="#" class="" id="optionsBtn">Options</a>
+      </div>
+      <div class="buttonContainer">
+        <a href="#" class="" id="leaderboardBtn">Leaderboard</a>
+      </div>
+
+      <div class="gameContainer" id="gameContainer">
+        <div class="word">
+          <span class="firstLetter" id="firstLetter"></span>
+          <span class="letters" id="letters"></span>
+        </div>
+
+        <div class="choices">
+          <div class="first12">
+            <span class="choiceLetter" id="A" onclick="choice('Α')">Α</span>
+            <span class="choiceLetter" id="B" onclick="choice('Β')">Β</span>
+            <span class="choiceLetter" id="C" onclick="choice('Γ')">Γ</span>
+            <span class="choiceLetter" id="D" onclick="choice('Δ')">Δ</span>
+            <span class="choiceLetter" id="E" onclick="choice('Ε')">Ε</span>
+            <span class="choiceLetter" id="Z" onclick="choice('Ζ')">Ζ</span>
+            <span class="choiceLetter" id="H" onclick="choice('Η')">Η</span>
+            <span class="choiceLetter" id="Th" onclick="choice('Θ')">Θ</span>
+            <span class="choiceLetter" id="I" onclick="choice('Ι')">Ι</span>
+            <span class="choiceLetter" id="K" onclick="choice('Κ')">Κ</span>
+            <span class="choiceLetter" id="L" onclick="choice('Λ')">Λ</span>
+            <span class="choiceLetter" id="M" onclick="choice('Μ')">Μ</span>
+          </div>
+
+          <div class="second12">
+            <span class="choiceLetter" id="N" onclick="choice('Ν')">Ν</span>
+            <span class="choiceLetter" id="Xi" onclick="choice('Ξ')">Ξ</span>
+            <span class="choiceLetter" id="O" onclick="choice('Ο')">Ο</span>
+            <span class="choiceLetter" id="P" onclick="choice('Π')">Π</span>
+            <span class="choiceLetter" id="R" onclick="choice('Ρ')">Ρ</span>
+            <span class="choiceLetter" id="S" onclick="choice('Σ')">Σ</span>
+            <span class="choiceLetter" id="T" onclick="choice('Τ')">Τ</span>
+            <span class="choiceLetter" id="Y" onclick="choice('Υ')">Υ</span>
+            <span class="choiceLetter" id="F" onclick="choice('Φ')">Φ</span>
+            <span class="choiceLetter" id="X" onclick="choice('Χ')">Χ</span>
+            <span class="choiceLetter" id="Psi" onclick="choice('Ψ')">Ψ</span>
+            <span class="choiceLetter" id="W" onclick="choice('Ω')">Ω</span>
+          </div>
+        </div>
+      </div>
     </div>
-    <script scr="js/main.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>

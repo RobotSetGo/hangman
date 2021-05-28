@@ -1,19 +1,19 @@
 body {
-    background-image: url("../img/background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #cccccc;
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #cccccc;
 }
 
 h1 {
-    color: #ffffff;
-    font-size: 80px;
-    margin-top: 100px;
-    margin-left: 120px;
-    font-family: 'Reggae One', cursive;
+  color: #ffffff;
+  font-size: 80px;
+  margin-top: 100px;
+  margin-left: 120px;
+  font-family: 'Reggae One', cursive;
 }
 
-h1:hover{
+h1:hover {
   color: #82B3AA;
 }
 
@@ -26,8 +26,37 @@ a {
   font-family: 'Reggae One', cursive;
 }
 
-a:hover{
+a:hover {
   color: #82B3AA;
   text-decoration: none;
   font-size: 45px;
+}
+
+.buttonContainer {
+  margin-top: 20px;
+  height: 50px;
+}
+
+.gameContainer {
+  visibility: hidden;
+  text-align: center;
+}
+
+.word {
+  font-size: 120px;
+  color: #ffffff;
+}
+
+.choices {
+  font-size: 50px;
+  margin-top: 150px;
+}
+
+.choiceLetter {
+  border: 2px solid #000000;
+  padding: 10px;
+}
+
+.first12 {
+  margin-bottom: 50px;
 }
